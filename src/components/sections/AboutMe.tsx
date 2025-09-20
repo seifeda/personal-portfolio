@@ -94,6 +94,7 @@ const education = [
     description: 'Specialized in Software Development and System Architecture',
     icon: FaGraduationCap
   }
+  
 ]
 
 const interests = [
@@ -115,21 +116,21 @@ const projects: Project[] = [
   {
     title: 'Web-based Attendance Management System',
     description: 'Comprehensive system for automating attendance tracking and monitoring.',
-    technologies: ['React', 'Spring Boot', 'PostgreSQL'],
+    technologies: ['Asp.net Web forms ', 'C#', 'SQL Server'],
     impact: 'Reduced administrative time by 10 hours/week and error rates by 30%',
     icon: FaUserGraduate
   },
   {
     title: 'Document Management System (DMS)',
-    description: 'Automated document verification workflows with advanced tracking capabilities.',
-    technologies: ['.NET Core', 'SQL Server', 'React'],
+    description: 'Automated document verification workflows with advanced tracking capabilities for KYC.',
+    technologies: ['C#', 'SQL Server', 'Asp.net Web forms'],
     impact: 'Reduced manual effort by 50% in document processing',
     icon: FaBook
   },
   {
     title: 'HRIS for Wegagen Bank',
     description: 'Comprehensive HR Information System for managing employee data and processes.',
-    technologies: ['Spring Boot', 'React', 'PostgreSQL'],
+    technologies: ['Asp.net Web forms', 'C#', 'SQl Server'],
     impact: 'Improved data accuracy and reduced processing time by 30%',
     icon: FaBriefcase
   },
@@ -139,6 +140,13 @@ const projects: Project[] = [
     technologies: ['.NET Core', 'React', 'SQL Server'],
     impact: 'Centralized lease management with automated tracking and renewals',
     icon: FaDatabase
+  },
+   {
+    title: 'Inventory Management System',
+    description: 'Automated system for managing inventory and stock levels.',
+    technologies: ['.NET Core', 'React', 'PostgreSQL'],
+    impact: 'Streamlined inventory processes and reduced stock discrepancies',
+    icon: FaCode
   }
 ]
 

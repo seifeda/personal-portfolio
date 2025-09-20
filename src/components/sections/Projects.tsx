@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
+
 interface Project {
   id: number
   title: string
@@ -49,6 +50,38 @@ const projectsData: Project[] = [
     demoLink: 'https://mytaskmanager.com',
     imageUrl: '/projects/taskmanager.png',
     category: 'Full Stack'
+  },
+  
+  {
+    id: 3,
+    title: 'Inventory Management System',
+    description: 'Automated system for managing inventory and stock levels.',
+    longDescription: 'A comprehensive inventory management system built with ASP.NET Core and React. Features include real-time inventory tracking, stock level alerts, and detailed reporting.',
+    technologies: [
+      
+      { name: 'ASP.NET Core', category: 'Backend' },
+      { name: 'PostgreSQL', category: 'Database' },
+      { name: 'SignalR', category: 'Backend' }
+    ],
+    githubLink: 'https://github.com/seifeda/inventorybackend.Api',
+    demoLink: 'https://mytaskmanager.com',
+    imageUrl: '../../projects/InventoryBackend.png',
+    category: 'Backend'
+  },{
+    id: 4,
+    title: 'CSV File Uploader API',
+    description: 'Automated system for managing CSV file uploads and processing.',
+    longDescription: 'A comprehensive CSV file uploader API built with Spring Boot. Features include file validation, parsing, and integration with Oracle database for inserting the data and logging the file on a PostgreSQL database.',
+    technologies: [
+
+      { name: 'Spring Boot', category: 'Backend' },
+      { name: 'PostgreSQL', category: 'Database' },
+      { name: 'Oracle', category: 'Database' }
+    ],
+    githubLink: 'https://github.com/seifeda/TransactionCsvFile',
+    demoLink: 'https://mytaskmanager.com',
+    imageUrl: '../../projects/CSVFile.png',
+    category: 'Backend'
   }
 ]
 
